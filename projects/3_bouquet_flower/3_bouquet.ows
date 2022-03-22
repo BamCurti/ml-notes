@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(144.0, 286.0)" />
+	</nodes>
+	<links />
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'recent_paths': [], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\tr\x00\x00\x01\x1a\x00\x00\n\xde\x00\x00\x01\xc8\x00\x00\ts\x00\x00\x019\x00\x00\n\xdd\x00\x00\x01\xc7\x00\x00\x00\x01\x00\x00\x00\x00\x05P\x00\x00\ts\x00\x00\x019\x00\x00\n\xdd\x00\x00\x01\xc7', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
