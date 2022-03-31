@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import training Images" position="(133.0, 281.0)" />
+		<node id="1" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding" position="(291.0, 283.0)" />
+		<node id="2" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save training Data" position="(452.0, 275.0)" />
+		<node id="3" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import testing Images" position="(129.0, 420.0)" />
+		<node id="4" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding (1)" position="(290.0, 420.0)" />
+		<node id="5" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(446.0, 422.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Images" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Embeddings" sink_channel="Data" enabled="true" />
+		<link id="2" source_node_id="3" sink_node_id="4" source_channel="Data" sink_channel="Images" enabled="true" />
+		<link id="3" source_node_id="4" sink_node_id="5" source_channel="Embeddings" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVowEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
+YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
+dGiUjGBEOi9pdGVzby9tYWNoaW5lLWxlYXJuaW5nL3dvcmtzcGFjZS9wcm9qZWN0cy8zX2JvdXF1
+ZXRfZmxvd2VyL2RhdGEvZmxvd2VyX2RhdGEvZmxvd2VyX2RhdGEvdHJhaW6UjAZwcmVmaXiUjAdi
+YXNlZGlylIwHcmVscGF0aJSMImRhdGEvZmxvd2VyX2RhdGEvZmxvd2VyX2RhdGEvdHJhaW6UjAV0
+aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zvcm1hdJROdWJhjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAlyAAABGgAACv4AAAHIAAAJcwAAATkAAAr9AAABxwAAAAEAAAAABVAAAAlz
+AAABOQAACv0AAAHHlIwLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\t\xab\x00\x00\x00\xfd\x00\x00\n\xa4\x00\x00\x01\xe5\x00\x00\t\xac\x00\x00\x01\x1c\x00\x00\n\xa3\x00\x00\x01\xe4\x00\x00\x00\x01\x00\x00\x00\x00\x05P\x00\x00\t\xac\x00\x00\x01\x1c\x00\x00\n\xa3\x00\x00\x01\xe4', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03G\x00\x00\x01\xaf\x00\x00\x04@\x00\x00\x02c\x00\x00\x03H\x00\x00\x01\xd5\x00\x00\x04?\x00\x00\x02b\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03H\x00\x00\x01\xd5\x00\x00\x04?\x00\x00\x02b', 'stored_name': 'train.csv', 'stored_path': 'D:/iteso/machine-learning/workspace/projects/3_bouquet_flower/data', '__version__': 2}</properties>
+		<properties node_id="3" format="pickle">gASVBwIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxLRDovaXRlc28vbWFjaGluZS1sZWFybmluZy93b3Jrc3BhY2UvcHJvamVjdHMvM19ib3Vx
+dWV0X2Zsb3dlci9kYXRhL3Rlc3Qgc2V0lIwGcHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjA1k
+YXRhL3Rlc3Qgc2V0lIwFdGl0bGWUjACUjAVzaGVldJRoEIwLZmlsZV9mb3JtYXSUTnViaAYpgZR9
+lChoCYxURDovaXRlc28vbWFjaGluZS1sZWFybmluZy93b3Jrc3BhY2UvcHJvamVjdHMvM19ib3Vx
+dWV0X2Zsb3dlci9kYXRhL3Rlc3Qgc2V0L3Rlc3Qgc2V0lGgLaAxoDYwWZGF0YS90ZXN0IHNldC90
+ZXN0IHNldJRoD2gQaBFoEGgSTnViZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAD
+4gAAAWEAAAVuAAACGgAAA+MAAAGHAAAFbQAAAhkAAAAAAAAAAAeAAAAD4wAAAYcAAAVtAAACGZSM
+C19fdmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="4" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\t\xab\x00\x00\x00\xfd\x00\x00\n\xa4\x00\x00\x01\xe5\x00\x00\t\xac\x00\x00\x01\x1c\x00\x00\n\xa3\x00\x00\x01\xe4\x00\x00\x00\x01\x00\x00\x00\x00\x05P\x00\x00\t\xac\x00\x00\x01\x1c\x00\x00\n\xa3\x00\x00\x01\xe4', '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03C\x00\x00\x01\xaf\x00\x00\x04&lt;\x00\x00\x02c\x00\x00\x03D\x00\x00\x01\xd5\x00\x00\x04;\x00\x00\x02b\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03D\x00\x00\x01\xd5\x00\x00\x04;\x00\x00\x02b', 'stored_name': 'test.csv', 'stored_path': 'D:/iteso/machine-learning/workspace/projects/3_bouquet_flower/data', '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
