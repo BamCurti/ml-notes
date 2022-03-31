@@ -1,0 +1,4 @@
+https://www.kaggle.com/datasets/lantian773030/pokemonclassification
+https://www.kaggle.com/datasets/rounakbanik/pokemon
+https://towardsdatascience.com/i-made-an-ai-to-recognize-over-10-000-yugioh-cards-26fc6aed1588
+https://neptune.ai/blog/data-augmentation-in-python
