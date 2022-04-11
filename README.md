@@ -9,6 +9,10 @@ The purpose of this repository is to contain all my projects and laboratories fr
 *Data extracted from [Hackaton Blossom (Flower Classification)](https://www.kaggle.com/spaics/hackathon-blossom-flower-classification?select=flower_data)*.
 The purpose of this project is to train multiple classifier models to recognize different flowers.
 
+### 4. Pokedex
+*Data extracted from [7,000 Labeled Pokemon](https://www.kaggle.com/datasets/lantian773030/pokemonclassification)*.
+The purpose of this project is to train multiple classifier models to recognize the first generacion of Pokemon, like the gadget called Pokedex from the anime.
+
 #### Before running the notebook
 1. Unzip the image set in a folder call `data`.
 2. Run the Orange script. In the case where it does not run properly, it will be required to install the widget __Image Analytics__. It will saved two datasets in the `data` folder, called train.csv and test.csv.

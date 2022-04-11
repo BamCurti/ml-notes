@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(116.0, 317.0)" />
+		<node id="1" name="Image Viewer" qualified_name="orangecontrib.imageanalytics.widgets.owimageviewer.OWImageViewer" project_name="Orange3-ImageAnalytics" version="" title="Image Viewer" position="(233.0, 207.0)" />
+		<node id="2" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding" position="(292.0, 314.0)" />
+		<node id="3" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(425.0, 312.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Images" enabled="true" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Embeddings" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASV8wIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxLRDovaXRlc28vbWFjaGluZS1sZWFybmluZy93b3Jrc3BhY2UvcHJvamVjdHMvNF9wb2tl
+ZGV4L2RhdGEvbGFiZWxlZF9wb2tlbW9ulIwGcHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjBRk
+YXRhL2xhYmVsZWRfcG9rZW1vbpSMBXRpdGxllIwAlIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51
+YmgGKYGUfZQoaAmMO0Q6L2l0ZXNvL21hY2hpbmUtbGVhcm5pbmcvd29ya3NwYWNlL3Byb2plY3Rz
+LzRfcG9rZWRleC9kYXRhlGgLaAxoDYwEZGF0YZRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxLRDov
+aXRlc28vbWFjaGluZS1sZWFybmluZy93b3Jrc3BhY2UvcHJvamVjdHMvM19ib3VxdWV0X2Zsb3dl
+ci9kYXRhL3Rlc3Qgc2V0lGgLjAdiYXNlZGlylGgNjA1kYXRhL3Rlc3Qgc2V0lGgPaBBoEWgQaBJO
+dWJoBimBlH2UKGgJjFREOi9pdGVzby9tYWNoaW5lLWxlYXJuaW5nL3dvcmtzcGFjZS9wcm9qZWN0
+cy8zX2JvdXF1ZXRfZmxvd2VyL2RhdGEvdGVzdCBzZXQvdGVzdCBzZXSUaAtoGmgNjBZkYXRhL3Rl
+c3Qgc2V0L3Rlc3Qgc2V0lGgPaBBoEWgQaBJOdWJljBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQ
+ywADAAAAAAkzAAAAZgAACp8AAAEUAAAJNAAAAIUAAAqeAAABEwAAAAEAAAAABVAAAAk0AAAAhQAA
+Cp4AAAETlIwLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="1" format="pickle">gASVfwEAAAAAAAB9lCiMCmF1dG9Db21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMCWltYWdl
+U2l6ZZRLZIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAIvQAAAG4AAAveAAACjQAA
+CL4AAACNAAAL3QAAAowAAAABAAAAAAVQAAAIvgAAAI0AAAvdAAACjJSMC19fdmVyc2lvbl9flEsB
+jBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOU
+KYGUfZQojAZ2YWx1ZXOUfZQojAlpbWFnZUF0dHKUSwBK/v///4aUjAl0aXRsZUF0dHKUSwBK/v//
+/4aUaAZLAXWMCmF0dHJpYnV0ZXOUfZSMCGNhdGVnb3J5lEsBc4wFbWV0YXOUfZQojAppbWFnZSBu
+YW1llEsDjAVpbWFnZZRLA4wEc2l6ZZRLAowFd2lkdGiUSwKMBmhlaWdodJRLAnV1YmF1Lg==
+</properties>
+		<properties node_id="2" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\tt\x00\x00\x01[\x00\x00\nk\x00\x00\x02#\x00\x00\tt\x00\x00\x01[\x00\x00\nk\x00\x00\x02#\x00\x00\x00\x01\x00\x00\x00\x00\x05P\x00\x00\tt\x00\x00\x01[\x00\x00\nk\x00\x00\x02#', '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\t\xc4\x00\x00\x00\xf5\x00\x00\n\xa3\x00\x00\x01\x9a\x00\x00\t\xc5\x00\x00\x01\x14\x00\x00\n\xa2\x00\x00\x01\x99\x00\x00\x00\x01\x00\x00\x00\x00\x05P\x00\x00\t\xc5\x00\x00\x01\x14\x00\x00\n\xa2\x00\x00\x01\x99', 'stored_name': 'dataset.csv', 'stored_path': 'D:/iteso/machine-learning/workspace/projects/4_pokedex/data', '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
