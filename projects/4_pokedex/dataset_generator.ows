@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(116.0, 317.0)" />
-		<node id="1" name="Image Viewer" qualified_name="orangecontrib.imageanalytics.widgets.owimageviewer.OWImageViewer" project_name="Orange3-ImageAnalytics" version="" title="Image Viewer" position="(233.0, 207.0)" />
-		<node id="2" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding" position="(292.0, 314.0)" />
-		<node id="3" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(425.0, 312.0)" />
+		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(119.0, 317.0)" />
+		<node id="1" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding" position="(292.0, 314.0)" />
+		<node id="2" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(425.0, 312.0)" />
 	</nodes>
 	<links>
-		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
-		<link id="1" source_node_id="2" sink_node_id="3" source_channel="Embeddings" sink_channel="Data" enabled="true" />
-		<link id="2" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Images" enabled="true" />
+		<link id="0" source_node_id="1" sink_node_id="2" source_channel="Embeddings" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Images" enabled="true" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -26,19 +24,11 @@ ci9kYXRhL3Rlc3Qgc2V0lGgLjAdiYXNlZGlylGgNjA1kYXRhL3Rlc3Qgc2V0lGgPaBBoEWgQaBJO
 dWJoBimBlH2UKGgJjFREOi9pdGVzby9tYWNoaW5lLWxlYXJuaW5nL3dvcmtzcGFjZS9wcm9qZWN0
 cy8zX2JvdXF1ZXRfZmxvd2VyL2RhdGEvdGVzdCBzZXQvdGVzdCBzZXSUaAtoGmgNjBZkYXRhL3Rl
 c3Qgc2V0L3Rlc3Qgc2V0lGgPaBBoEWgQaBJOdWJljBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQ
-ywADAAAAAAL7AAAB8AAABIUAAAKSAAAC+wAAAfAAAASFAAACkgAAAAAAAAAAB4AAAAL7AAAB8AAA
-BIUAAAKSlIwLX192ZXJzaW9uX1+USwF1Lg==
+ywADAAAAAAoHAAABeQAAC3MAAAInAAAKCAAAAZgAAAtyAAACJgAAAAEAAAAAB4AAAAoIAAABmAAA
+C3IAAAImlIwLX192ZXJzaW9uX1+USwF1Lg==
 </properties>
-		<properties node_id="1" format="pickle">gASVfwEAAAAAAAB9lCiMCmF1dG9Db21taXSUiYwSY29udHJvbEFyZWFWaXNpYmxllIiMCWltYWdl
-U2l6ZZRLZIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACgAAAASwAAAUBAAADMgAA
-AoEAAAFSAAAFAAAAAzEAAAAAAAAAAAeAAAACgQAAAVIAAAUAAAADMZSMC19fdmVyc2lvbl9flEsB
-jBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOU
-KYGUfZQojAZ2YWx1ZXOUfZQojAlpbWFnZUF0dHKUSwBK/v///4aUjAl0aXRsZUF0dHKUSwBK/v//
-/4aUaAZLAXWMCmF0dHJpYnV0ZXOUfZSMCGNhdGVnb3J5lEsBc4wFbWV0YXOUfZQojAppbWFnZSBu
-YW1llEsDjAVpbWFnZZRLA4wEc2l6ZZRLAowFd2lkdGiUSwKMBmhlaWdodJRLAnV1YmF1Lg==
-</properties>
-		<properties node_id="2" format="literal">{'_auto_apply': False, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03'\x00\x00\x01\xd7\x00\x00\x04Y\x00\x00\x02\xab\x00\x00\x03'\x00\x00\x01\xd7\x00\x00\x04Y\x00\x00\x02\xab\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03'\x00\x00\x01\xd7\x00\x00\x04Y\x00\x00\x02\xab", '__version__': 1}</properties>
-		<properties node_id="3" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03C\x00\x00\x01\xd5\x00\x00\x04=\x00\x00\x02\x89\x00\x00\x03D\x00\x00\x01\xfb\x00\x00\x04&lt;\x00\x00\x02\x88\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03D\x00\x00\x01\xfb\x00\x00\x04&lt;\x00\x00\x02\x88', 'stored_name': 'dataset.csv', 'stored_path': 'D:/iteso/machine-learning/workspace/projects/4_pokedex/data', '__version__': 2}</properties>
+		<properties node_id="1" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xd5\x00\x00\x00\xa5\x00\x00\x0b\xce\x00\x00\x01\x8d\x00\x00\n\xd6\x00\x00\x00\xc4\x00\x00\x0b\xcd\x00\x00\x01\x8c\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xd6\x00\x00\x00\xc4\x00\x00\x0b\xcd\x00\x00\x01\x8c', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'add_type_annotations': False, 'auto_save': True, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\x8e\x00\x00\x01?\x00\x00\x0b\x8a\x00\x00\x01\xf4\x00\x00\n\x8f\x00\x00\x01^\x00\x00\x0b\x89\x00\x00\x01\xf3\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\x8f\x00\x00\x01^\x00\x00\x0b\x89\x00\x00\x01\xf3', 'stored_name': 'dataset.csv', 'stored_path': 'D:/iteso/machine-learning/workspace/projects/4_pokedex/data', '__version__': 3}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
