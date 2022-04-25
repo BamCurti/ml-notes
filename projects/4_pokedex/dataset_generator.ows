@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="Import Images" position="(119.0, 317.0)" />
+		<node id="1" name="Image Embedding" qualified_name="orangecontrib.imageanalytics.widgets.owimageembedding.OWImageEmbedding" project_name="Orange3-ImageAnalytics" version="" title="Image Embedding" position="(292.0, 314.0)" />
+		<node id="2" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(425.0, 312.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="1" sink_node_id="2" source_channel="Embeddings" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Images" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASV8wIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxLRDovaXRlc28vbWFjaGluZS1sZWFybmluZy93b3Jrc3BhY2UvcHJvamVjdHMvNF9wb2tl
+ZGV4L2RhdGEvbGFiZWxlZF9wb2tlbW9ulIwGcHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjBRk
+YXRhL2xhYmVsZWRfcG9rZW1vbpSMBXRpdGxllIwAlIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51
+YmgGKYGUfZQoaAmMO0Q6L2l0ZXNvL21hY2hpbmUtbGVhcm5pbmcvd29ya3NwYWNlL3Byb2plY3Rz
+LzRfcG9rZWRleC9kYXRhlGgLaAxoDYwEZGF0YZRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxLRDov
+aXRlc28vbWFjaGluZS1sZWFybmluZy93b3Jrc3BhY2UvcHJvamVjdHMvM19ib3VxdWV0X2Zsb3dl
+ci9kYXRhL3Rlc3Qgc2V0lGgLjAdiYXNlZGlylGgNjA1kYXRhL3Rlc3Qgc2V0lGgPaBBoEWgQaBJO
+dWJoBimBlH2UKGgJjFREOi9pdGVzby9tYWNoaW5lLWxlYXJuaW5nL3dvcmtzcGFjZS9wcm9qZWN0
+cy8zX2JvdXF1ZXRfZmxvd2VyL2RhdGEvdGVzdCBzZXQvdGVzdCBzZXSUaAtoGmgNjBZkYXRhL3Rl
+c3Qgc2V0L3Rlc3Qgc2V0lGgPaBBoEWgQaBJOdWJljBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQ
+ywADAAAAAAoHAAABeQAAC3MAAAInAAAKCAAAAZgAAAtyAAACJgAAAAEAAAAAB4AAAAoIAAABmAAA
+C3IAAAImlIwLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'_auto_apply': True, 'cb_embedder_current_id': 0, 'cb_image_attr_current_id': 0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xd5\x00\x00\x00\xa5\x00\x00\x0b\xce\x00\x00\x01\x8d\x00\x00\n\xd6\x00\x00\x00\xc4\x00\x00\x0b\xcd\x00\x00\x01\x8c\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xd6\x00\x00\x00\xc4\x00\x00\x0b\xcd\x00\x00\x01\x8c', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'add_type_annotations': False, 'auto_save': True, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\x8e\x00\x00\x01?\x00\x00\x0b\x8a\x00\x00\x01\xf4\x00\x00\n\x8f\x00\x00\x01^\x00\x00\x0b\x89\x00\x00\x01\xf3\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\x8f\x00\x00\x01^\x00\x00\x0b\x89\x00\x00\x01\xf3', 'stored_name': 'dataset.csv', 'stored_path': 'D:/iteso/machine-learning/workspace/projects/4_pokedex/data', '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
