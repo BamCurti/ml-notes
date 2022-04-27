@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(118.0, 350.0)" />
+		<node id="1" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(231.0, 351.0)" />
+		<node id="2" name="Tweet Profiler" qualified_name="orangecontrib.text.widgets.owtweetprofiler.OWTweetProfiler" project_name="Orange3-Text" version="" title="Tweet Profiler" position="(337.0, 187.0)" />
+		<node id="3" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(376.0, 404.0)" />
+		<node id="4" name="Group by" qualified_name="Orange.widgets.data.owgroupby.OWGroupBy" project_name="Orange3" version="" title="Group by" position="(526.0, 404.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+		<link id="2" source_node_id="1" sink_node_id="3" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'D:/iteso/machine-learning/workspace/lab/3_tweets/tweets.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 28, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'D:/iteso/machine-learning/workspace/lab/3_tweets', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xa7\x00\x00\x01[\x00\x00\x0b\xd9\x00\x00\x02\xbe\x00\x00\n\xa8\x00\x00\x01z\x00\x00\x0b\xd8\x00\x00\x02\xbd\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xa8\x00\x00\x01z\x00\x00\x0b\xd8\x00\x00\x02\xbd', '__version__': 3}</properties>
+		<properties node_id="1" format="pickle">gASV4gMAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfZmlsZXOUXZQojBFi
+b29rLWV4Y2VycHRzLnRhYpSMGGdyaW1tLXRhbGVzLXNlbGVjdGVkLnRhYpSMGGVsZWN0aW9uLXR3
+ZWV0cy0yMDE2LnRhYpSMF2ZyaWVuZHMtdHJhbnNjcmlwdHMudGFilIwMYW5kZXJzZW4udGFilGWM
+E3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAClQAAAGEAAAMKwAAArMAAApUAAABhAAA
+DCsAAAKzAAAAAQAAAAAHgAAAClQAAAGEAAAMKwAAArOUjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4
+dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiM
+BnZhbHVlc5R9lCiMDnRpdGxlX3ZhcmlhYmxllIwPb3JpZ2luYWxfYXV0aG9ylEtnhpSMCnVzZWRf
+YXR0cnOUXZSMBHRleHSUS2eGlGFK/f///4aUaAtLAXWMCmF0dHJpYnV0ZXOUfZQojAJpZJRLAowG
+aGFuZGxllEsBjAppc19yZXR3ZWV0lEsBjAR0aW1llEsEjBdpbl9yZXBseV90b19zY3JlZW5fbmFt
+ZZRLAYwVaW5fcmVwbHlfdG9fc3RhdHVzX2lklEsCjBNpbl9yZXBseV90b191c2VyX2lklEsCjA9p
+c19xdW90ZV9zdGF0dXOUSwGMBGxhbmeUSwGMDXJldHdlZXRfY291bnSUSwKMDmZhdm9yaXRlX2Nv
+dW50lEsCjAlsb25naXR1ZGWUSwKMCGxhdGl0dWRllEsCjAhwbGFjZV9pZJRLAYwPcGxhY2VfZnVs
+bF9uYW1llEsBjApwbGFjZV9uYW1llEsBjApwbGFjZV90eXBllEsBjBJwbGFjZV9jb3VudHJ5X2Nv
+ZGWUSwGMDXBsYWNlX2NvdW50cnmUSwGMFnBsYWNlX2NvbnRhaW5lZF93aXRoaW6USwGMEHBsYWNl
+X2F0dHJpYnV0ZXOUSwGMEnBsYWNlX2JvdW5kaW5nX2JveJRLAYwKc291cmNlX3VybJRLAYwJdHJ1
+bmNhdGVklEsBdYwFbWV0YXOUfZQoaBpLA2gWSwOMCGVudGl0aWVzlEsDjBFleHRlbmRlZF9lbnRp
+dGllc5RLA3V1YmgQKYGUfZQoaBN9lChoFU5K/v///4aUaBhdlIwEVGV4dJRLZ4aUYUr9////hpRo
+C0sBdWgdfZSMCENhdGVnb3J5lEsBc2g3fZRoQEsDc3ViZXUu
+</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'model_name': 'Ekman (Multi Class)', 'output_mode': 'Classes', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xd5\x00\x00\x01\xa7\x00\x00\x0b\xb1\x00\x00\x02\x97\x00\x00\n\xd5\x00\x00\x01\xa7\x00\x00\x0b\xb1\x00\x00\x02\x97\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xd5\x00\x00\x01\xa7\x00\x00\x0b\xb1\x00\x00\x02\x97', 'tweet_attr': 0, '__version__': 1}</properties>
+		<properties node_id="3" format="pickle">gASVtwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAl+AAABIgAADQEAAAMVAAAJfgAAASIAAA0BAAADFQAAAAEAAAAAB4AAAAl+
+AAABIgAADQEAAAMVlIwOc2VsZWN0ZWRfd29yZHOUj5SMC3dvcmRzX2NvbG9ylIiMCndvcmRzX3Rp
+bHSUSwCMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="4" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\t\x9a\x00\x00\x01\x03\x00\x00\x0c\xe5\x00\x00\x03\x16\x00\x00\t\x9b\x00\x00\x01"\x00\x00\x0c\xe4\x00\x00\x03\x15\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\t\x9b\x00\x00\x01"\x00\x00\x0c\xe4\x00\x00\x03\x15', '__version__': 1, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
