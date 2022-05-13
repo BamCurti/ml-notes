@@ -3,3 +3,4 @@ __pycache__
 .vscode
 *.zip
 projects/*/data
+projects/*/data_AU
